@@ -737,19 +737,49 @@ main {
     display: flex;
     justify-content: space-between;
     width: 500px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding-bottom: 10px;
 }
     #article-text > p {
         margin-top: 20px;
+        font-weight: bold;
     }
-    #article-text > button {
-        width: 60px;
-        height: 60px;
-        background-color: transparent;
+    .article-btn {
+        width: 500px;
+        display: flex;
+        justify-content: end;
+    }
+    .article-btn > button {
+        width: 120px;
+        height: 30px;
+        background-color: white;
         border: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    #article-text > button:hover {
-        background-color: green;
+    .article-btn > button:hover {
+        background-color: rgba(185, 60, 179, 0.589);
     }
-    #article-text > button > img {
+    .article-btn > button > img {
         width: 20px;
     }
+
+.last-btn {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5-last-btn {
+width: 238px;
+height: 56px;
+border-radius: 40px;
+background: #191919;
+color: white;
+}
+.container5-last-btn > img {
+    width: 20px;
+}
