@@ -528,6 +528,10 @@ main {
     .advice > .play-btn {
         background-color: black !important;
     }
+    .advice > .play-btn:hover {
+        filter: invert(1);
+        border: 1px solid white !important
+    }
     .advice > .play-btn > img {
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(156deg) brightness(108%) contrast(101%);
         width: 30px !important;
@@ -555,6 +559,10 @@ main {
     }
     .startup > .play-btn {
         background-color: black !important;
+    }
+    .startup > .play-btn:hover {
+        filter: invert(1);
+        border: 1px solid white !important;
     }
     .startup > .play-btn > img {
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(156deg) brightness(108%) contrast(101%);
@@ -584,6 +592,10 @@ main {
     .financial > .play-btn {
         background-color: black !important;
     }
+    .financial > .play-btn:hover {
+        filter: invert(1);
+        border: 1px solid white !important;
+    }
     .financial > .play-btn > img {
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(156deg) brightness(108%) contrast(101%);
         width: 30px !important;
@@ -611,6 +623,10 @@ main {
     }
     .risk > .play-btn {
         background-color: black !important;
+    }
+    .risk > .play-btn:hover {
+        filter: invert(1);
+        border: 1px solid white !important;
     }
     .risk > .play-btn > img {
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(156deg) brightness(108%) contrast(101%);
@@ -754,13 +770,13 @@ main {
         height: 30px;
         background-color: white;
         border: none;
-        border-radius: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .article-btn > button:hover {
-        background-color: rgba(185, 60, 179, 0.589);
+        text-decoration: underline;
+        cursor: pointer;
     }
     .article-btn > button > img {
         width: 20px;
@@ -777,9 +793,30 @@ main {
 width: 238px;
 height: 56px;
 border-radius: 40px;
-background: #191919;
+background: #000000;
 color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 250px;
+top: 80px;
+cursor: pointer;
 }
+
+
+.container5-last-btn:hover {
+filter: invert(1);
+    border: 1px solid white;
+}
+
 .container5-last-btn > img {
     width: 20px;
+    filter: invert(89%) sepia(100%) saturate(0%) hue-rotate(256deg) brightness(106%) contrast(102%);
+} 
+
+.section6 {
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(240,208,130,0.93 );
 }
