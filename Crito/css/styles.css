@@ -854,3 +854,21 @@ filter: invert(1);
     width: 20px;
     filter: invert(0%) sepia(6%) saturate(7493%) hue-rotate(212deg) brightness(112%) contrast(97%);
 }
+.browse-btn:hover {
+    background-color: rgba(97, 90, 70, 0.93);
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    font-family: 'DM sans', sans-serif;
+}
+#team {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+#team > h1 {
+    margin: 20px 0px 10px 0px;
+}
