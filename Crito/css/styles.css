@@ -820,3 +820,37 @@ filter: invert(1);
     height: 2000px;
     background-color: rgba(240,208,130,0.93 );
 }
+.headerbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 250px 0px 250px !important;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+.header-text > p {
+    color: red;
+    font-size: 18px;
+    font-family: 'DM sans', sans-serif;
+}
+.header-text > h1 {
+    font-size: 40px;
+}
+.browse-btn {
+    width: 238px;
+    height: 56px;
+    border-radius: 40px;
+    color: black;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black !important;
+}
+.browse-btn > img {
+    width: 20px;
+    filter: invert(0%) sepia(6%) saturate(7493%) hue-rotate(212deg) brightness(112%) contrast(97%);
+}
