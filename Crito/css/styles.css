@@ -445,7 +445,8 @@ main {
     }
 
         .btns > .learn-btn:hover {
-            background-color: #ff00006b !important;
+            filter: invert(1);
+            border: 1px solid white !important;
         }
 
         .play-btn {
@@ -877,10 +878,13 @@ filter: invert(1);
 }
 
 .clients-container {
-    width: 1320px;
+    width: 1400px;
     height: 887px;
     background-color: white;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .clients-header {
@@ -906,10 +910,10 @@ filter: invert(1);
 }
 
 .client1 {
-    width: 250px;
-    word-spacing: 5px;
+    width: 300px;
+    word-spacing: 4px;
     line-height: 25px;
-    padding: 60px;
+    padding: 50px;
 }
 #client {
     display: flex;
@@ -918,8 +922,28 @@ filter: invert(1);
 }
 #client > img {
     width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 .client-role > h1 {
     font-size: 15px;
+}
+.client-role > p {
+    font-size: 15px;
+    color: red;
+}
+
+.clients-container > button {
+    margin-top: 140px;
+    width: 200px;
+    height: 50px;
+    color: white !important;
+    background-color: black !important;
+}
+.clients-container > button > img {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(14deg) brightness(113%) contrast(103%);
+}
+.clients-container > button:hover {
+    filter: invert(1);
+    border: 1px solid white !important;
 }
